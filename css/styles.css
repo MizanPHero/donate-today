@@ -61,6 +61,7 @@ body {}
 }
 
 /* donate today section */
+
 .donate-today {
     margin-top: 130px;
 }
@@ -79,3 +80,15 @@ body {}
     margin-top: 20px;
     margin-bottom: 50px;
 }
+
+.tk-container {
+    display: flex;
+}
+
+.tk-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tk-description {}
