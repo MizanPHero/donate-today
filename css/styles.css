@@ -22,12 +22,13 @@ html {
 
 body {}
 
+/* header section */
 .header {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('../images/donation13.jpg');
     height: 670px;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 175px 310px;
+    padding: 175px 345px;
     text-align: center;
 }
 
@@ -42,7 +43,7 @@ body {}
 .header-subtitle {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     color: var(--white);
     margin-top: 20px;
     margin-bottom: 30px;
@@ -57,4 +58,24 @@ body {}
     padding: 16px 20px;
     border-style: none;
     border-radius: 5px;
+}
+
+/* donate today section */
+.donate-today {
+    margin-top: 130px;
+}
+
+.section-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.section-description {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--dark-silver);
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
