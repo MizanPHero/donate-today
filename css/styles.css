@@ -1,0 +1,19 @@
+:root {
+    --sunset-orange: hsl(0, 100%, 67%);
+    --chinese-black: hsl(0, 0%, 7%);
+    --dark-silver: hsl(0, 0%, 44%);
+    --philippine-silver: hsl(0, 0%, 70%);
+    --gainsbro: hsl(0, 0%, 85%);
+    --white: hsl(0, 0%, 100%);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
